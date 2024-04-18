@@ -1,0 +1,31 @@
+﻿<Window x:Class="KitaevEkzamen.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KitaevEkzamen"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="595" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="347*"/>
+            <ColumnDefinition Width="453*"/>
+        </Grid.ColumnDefinitions>
+        <Canvas Grid.ColumnSpan="2">
+            <TextBlock Text="Введите объем топлива" FontSize="20" Canvas.Left="47" Canvas.Top="56"/>
+            <TextBox x:Name="Obem" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Width="219" Canvas.Left="47" Canvas.Top="88"/>
+            <TextBlock Text="Введите плотность топлива" FontSize="20" Canvas.Left="47" Canvas.Top="135" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBox x:Name="Plotnost" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Top" Width="219" Canvas.Left="47" Canvas.Top="167"/>
+            <Button x:Name="massatopliva"  Content="Вычислить массу топлива" FontSize="20" Canvas.Left="47" Canvas.Top="217" Click="massatopliva_Click"/>
+            <TextBlock Text="Введите объем топлива" FontSize="20" Canvas.Left="430" Canvas.Top="56" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <TextBox x:Name="ObemHran" FontSize="20" Width="219" Canvas.Left="430" Canvas.Top="93" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBlock Text="Введите текущий запас" FontSize="20" Canvas.Left="430" Canvas.Top="127" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox x:Name="Zapas" FontSize="20" Width="219" Canvas.Left="430" Canvas.Top="167" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Button x:Name="Hran"  Content="Вычислить доступный объем" FontSize="20" Canvas.Left="430" Canvas.Top="217" HorizontalAlignment="Left" VerticalAlignment="Center" Click="Hran_Click"/>
+            <TextBlock Text="Введите объем для запрваки" FontSize="20" Canvas.Left="47" Canvas.Top="270" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBox x:Name="Zapravka" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Top" Width="192" Canvas.Left="47" Canvas.Top="302"/>
+            <Button x:Name="Zapravit" Content="Заправить" FontSize="20" Canvas.Left="94" Canvas.Top="383" Click="Zapravit_Click" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        </Canvas>
+
+    </Grid>
+</Window>

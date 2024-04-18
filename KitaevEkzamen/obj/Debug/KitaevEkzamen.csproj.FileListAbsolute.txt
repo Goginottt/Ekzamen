@@ -1,0 +1,15 @@
+C:\Users\student\Desktop\Kitaev\KitaevEkzamen\bin\Debug\KitaevEkzamen.exe.config
+C:\Users\student\Desktop\Kitaev\KitaevEkzamen\bin\Debug\KitaevEkzamen.exe
+C:\Users\student\Desktop\Kitaev\KitaevEkzamen\bin\Debug\KitaevEkzamen.pdb
+C:\Users\student\Desktop\Kitaev\KitaevEkzamen\obj\Debug\KitaevEkzamen.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\Kitaev\KitaevEkzamen\obj\Debug\MainWindow.g.cs
+C:\Users\student\Desktop\Kitaev\KitaevEkzamen\obj\Debug\App.g.cs
+C:\Users\student\Desktop\Kitaev\KitaevEkzamen\obj\Debug\KitaevEkzamen_MarkupCompile.cache
+C:\Users\student\Desktop\Kitaev\KitaevEkzamen\obj\Debug\KitaevEkzamen_MarkupCompile.lref
+C:\Users\student\Desktop\Kitaev\KitaevEkzamen\obj\Debug\MainWindow.baml
+C:\Users\student\Desktop\Kitaev\KitaevEkzamen\obj\Debug\KitaevEkzamen.g.resources
+C:\Users\student\Desktop\Kitaev\KitaevEkzamen\obj\Debug\KitaevEkzamen.Properties.Resources.resources
+C:\Users\student\Desktop\Kitaev\KitaevEkzamen\obj\Debug\KitaevEkzamen.csproj.GenerateResource.cache
+C:\Users\student\Desktop\Kitaev\KitaevEkzamen\obj\Debug\KitaevEkzamen.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Kitaev\KitaevEkzamen\obj\Debug\KitaevEkzamen.exe
+C:\Users\student\Desktop\Kitaev\KitaevEkzamen\obj\Debug\KitaevEkzamen.pdb
